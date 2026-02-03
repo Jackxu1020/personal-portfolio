@@ -15,7 +15,8 @@ const skills = [
     "Kubernetes",
     "Docker",
     "Git",
-    "Github Action"
+    "Github Action",
+    "dance",
 ];
 
 export const Hero = () => {
