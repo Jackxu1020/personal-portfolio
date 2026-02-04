@@ -1,4 +1,4 @@
-import { Button } from "@/components/button";
+import { Button } from "@/components/Button";
 import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { Github, Linkedin, Instagram } from "lucide-react";
@@ -74,9 +74,11 @@ export const Hero = () => {
 
                         {/* CTAs */}
                         <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                            <Button size="lg">
-                                Contact Me <ArrowRight className="w-5 h-5"/>
-                            </Button>
+                            <a href="#contact">
+                                <Button size="lg">
+                                    Contact Me <ArrowRight className="w-5 h-5"/>
+                                </Button>
+                            </a>
                             <AnimatedBorderButton />
                         </div>
 
