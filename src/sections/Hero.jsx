@@ -87,8 +87,8 @@ export const Hero = () => {
                             <span className="text-sm text-muted-foreground">Follow me: </span>
                             {[
                                 {icon: Github, href: "https://github.com/Jackxu1020"},
-                                {icon: Linkedin, href: "https://www.linkedin.com/in/jack-xu-1020/"},
-                                {icon: Instagram, href: "https://www.instagram.com/jackxu1020/"},
+                                {icon: Linkedin, href: "http://www.linkedin.com/in/jack-xu-540128336"},
+                                {icon: Instagram, href: "https://www.instagram.com/jacck_xzk/"},
                             ].map((social, idx) => (
                                 <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                                 >{<social.icon  className="w-5 h-5"/>}</a>
